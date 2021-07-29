@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 70vh;
+	background: url(12.jpg);
+	background-size: cover;
+}
+.main{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%)translateY(-50%);
+}
+.button{
+	width: 60;
+	height: 50;
+	font-size: 25;
+	margin: 2;
+	cursor: pointer;
+	background: #607d8b;
+	border-color: red;
+	color: white;
+}
+.textview{
+	width: 257;
+	height: 55;
+	margin: 5;
+	font-size: 25;
+	padding: 5;
+	border: none;
+	color: #fff;
+	background-color: #30eee8;
+}
